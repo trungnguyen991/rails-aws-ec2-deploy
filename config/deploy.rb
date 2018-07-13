@@ -3,7 +3,7 @@ lock "~> 3.10.1"
 
 # Tên application của mình
 set :application, 'rails-aws-ec2-deploy' 
-# Repository github của bạn. Tạo 1 repo mới trên github
+# Repository github 
 set :repo_url, 'git@github.com:trungnguyen991/rails-aws-ec2-deploy.git' 
 set :branch, :master
 set :deploy_to, '/home/deploy/rails-aws-ec2-deploy'
